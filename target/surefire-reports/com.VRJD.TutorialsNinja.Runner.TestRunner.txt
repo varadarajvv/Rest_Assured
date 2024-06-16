@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.VRJD.TutorialsNinja.Runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 243.991 s - in com.VRJD.TutorialsNinja.Runner.TestRunner
