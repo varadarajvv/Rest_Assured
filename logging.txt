@@ -1,0 +1,143 @@
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 839259983,
+    "username": "Varadaraj",
+    "firstName": "Luke",
+    "lastName": "Howe",
+    "email": "leeanna.gerlach@example.com",
+    "password": "3zetpf",
+    "phone": "658.200.8111",
+    "userStatus": 0
+}
+HTTP/1.1 200 OK
+Date: Tue, 25 Jun 2024 10:55:43 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "839259983"
+}
+Request method:	GET
+Request URI:	https://petstore.swagger.io/v2/user/Varadaraj
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	username=Varadaraj
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 25 Jun 2024 10:55:45 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 1802415698,
+    "username": "Varadaraj",
+    "firstName": "Ruben",
+    "lastName": "Rosenbaum",
+    "email": "delsie.ziemann@example.com",
+    "password": "2rtp8",
+    "phone": "923.429.8365",
+    "userStatus": 0
+}
+Request method:	PUT
+Request URI:	https://petstore.swagger.io/v2/user/Varadaraj
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	username=Varadaraj
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "username": "Varadaraj",
+    "firstName": null,
+    "lastName": null,
+    "email": null,
+    "password": null,
+    "phone": null,
+    "userStatus": 0
+}
+HTTP/1.1 200 OK
+Date: Tue, 25 Jun 2024 10:55:46 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "9223372036854757607"
+}
+Request method:	DELETE
+Request URI:	https://petstore.swagger.io/v2/user/Varadaraj
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	username=Varadaraj
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "username": "Varadaraj",
+    "firstName": null,
+    "lastName": null,
+    "email": null,
+    "password": null,
+    "phone": null,
+    "userStatus": 0
+}
+HTTP/1.1 200 OK
+Date: Tue, 25 Jun 2024 10:55:47 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "Varadaraj"
+}
